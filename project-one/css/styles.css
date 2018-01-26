@@ -1,0 +1,92 @@
+li {
+	position: relative;
+}
+
+.close-container {
+	float: right;
+}
+
+button {
+	background-color: green;
+	border: none;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: orange;
+}
+
+button:active {
+	background-color: purple;
+}
+
+button.close {
+	position: absolute;
+	top: 0;
+	right: 5px;
+	font-size: 20px;
+	padding: 0;
+	background-color: transparent;
+}
+
+button.close:after {
+	color: black;
+}
+
+button.edit {
+	display: block;
+	clear: both;
+}
+
+.clear {
+	clear: both;
+}
+
+.text {
+	display: inline;
+}
+
+input {
+	width: 200px;
+	padding: 20px 5px;
+	font-size: 20px;
+	border: 1px solid green;
+	border-radius: 5px;
+	outline: none;
+}
+
+button#add {
+	padding: 20px;
+	font-size: 20px;
+	border: none;
+	background-color: green;
+	cursor: pointer;
+}
+
+button#add:hover {
+	background-color: orange;
+}
+
+button#add:active {
+	background-color: purple;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	width: 400px;
+}
+
+
+li:not(:first-child) {
+	border-top: none;
+}
+
+li {
+	padding: 20px;
+	border: 1px solid gray;
+}
+
+.input-container {
+	margin-top: 20px;
+}
